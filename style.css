@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans',sans-serif;
+    background-color: black;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: azure;
+    margin: 0 auto;
+    top: 80px;
+    position: relative;
+    border-radius: 5px;
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color:dimgrey ;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number,.empty{
+    background-color: azure;
+}
+.number,.operator{
+    cursor: pointer;
+}
+.number:active,.operator:active{
+    font-size: 13px;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color:mediumpurple;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color:indianred;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color:peru;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color:mediumspringgreen;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color:teal;
+}
